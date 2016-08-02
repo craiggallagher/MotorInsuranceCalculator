@@ -107,19 +107,19 @@
         <Button x:Name="btnAddDriver" Content="Add Driver" Command="New"  VerticalAlignment="Bottom" Width="162" Margin="73,0,295,0" FontSize="16" FontWeight="Bold" Background="Green" Foreground="White" Click="btnAddDriver_Click" Grid.Column="2" Grid.Row="16"/>
         <Button x:Name="btnClose" Content="Exit" VerticalAlignment="Bottom" Width="162" Margin="290,0,78,0" FontSize="16" FontWeight="Bold" Background="Red" Foreground="White" Grid.Column="2" Grid.Row="16" Click="btnClose_Click"/>
         <TextBlock x:Name="txtPolicy" Visibility="Collapsed" Grid.Row="2" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
-        <ListView x:Name="lstDrivers" HorizontalAlignment="Left" Height="100" FontSize="16" FontWeight="Bold" Foreground="Coral" Grid.RowSpan="5" VerticalAlignment="Top" Grid.Column="1" Width="275"  Grid.Row="18">
+        <ListView x:Name="lstDrivers" HorizontalAlignment="Left" Height="140" FontSize="16" FontWeight="Bold" Foreground="Coral" Grid.RowSpan="6" VerticalAlignment="Top" Grid.Column="1" Width="275"  Grid.Row="17">
             <ListView.View>
                 <GridView>
-                    
+
                     <GridViewColumn  Header="Name"/>
                 </GridView>
             </ListView.View>
         </ListView>
-        <ListView x:Name="lstPolicy" HorizontalAlignment="Left" Height="100" FontSize="16" FontWeight="Bold" Foreground="Coral" Grid.RowSpan="4" Grid.Column="1" VerticalAlignment="Top" Width="69" Margin="280,0,0,0" Grid.Row="18">
+        <ListView x:Name="lstPolicy" HorizontalAlignment="Left" Height="140" FontSize="16" FontWeight="Bold" Foreground="Coral" Grid.RowSpan="6"  Grid.Column="1" VerticalAlignment="Top" Width="110" Margin="280,0,0,0" Grid.Row="17" >
             <ListView.View>
                 <GridView>
-                    <GridViewColumn  Header="Cost"/>
-                    
+                    <GridViewColumn  Header="Cost             "/>
+
                 </GridView>
             </ListView.View>
         </ListView>
