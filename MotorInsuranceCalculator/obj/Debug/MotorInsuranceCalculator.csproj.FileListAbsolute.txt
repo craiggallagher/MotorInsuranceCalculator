@@ -1,0 +1,32 @@
+C:\Documents\MotorInsuranceCalculator\MotorInsuranceCalculator\bin\Debug\MotorInsuranceCalculator.exe.config
+C:\Documents\MotorInsuranceCalculator\MotorInsuranceCalculator\bin\Debug\MotorInsuranceCalculator.exe
+C:\Documents\MotorInsuranceCalculator\MotorInsuranceCalculator\bin\Debug\MotorInsuranceCalculator.pdb
+C:\Documents\MotorInsuranceCalculator\MotorInsuranceCalculator\obj\Debug\MainWindow.g.cs
+C:\Documents\MotorInsuranceCalculator\MotorInsuranceCalculator\obj\Debug\App.g.cs
+C:\Documents\MotorInsuranceCalculator\MotorInsuranceCalculator\obj\Debug\MotorInsuranceCalculator_MarkupCompile.cache
+C:\Documents\MotorInsuranceCalculator\MotorInsuranceCalculator\obj\Debug\MotorInsuranceCalculator_MarkupCompile.lref
+C:\Documents\MotorInsuranceCalculator\MotorInsuranceCalculator\obj\Debug\MainWindow.baml
+C:\Documents\MotorInsuranceCalculator\MotorInsuranceCalculator\obj\Debug\MotorInsuranceCalculator.g.resources
+C:\Documents\MotorInsuranceCalculator\MotorInsuranceCalculator\obj\Debug\MotorInsuranceCalculator.Properties.Resources.resources
+C:\Documents\MotorInsuranceCalculator\MotorInsuranceCalculator\obj\Debug\MotorInsuranceCalculator.csproj.GenerateResource.Cache
+C:\Documents\MotorInsuranceCalculator\MotorInsuranceCalculator\obj\Debug\MotorInsuranceCalculator.exe
+C:\Documents\MotorInsuranceCalculator\MotorInsuranceCalculator\obj\Debug\MotorInsuranceCalculator.pdb
+C:\Documents\MotorInsuranceCalculator\MotorInsuranceCalculator\obj\Debug\MotorInsuranceCalculator.csprojResolveAssemblyReference.cache
+C:\Documents\MotorInsuranceCalculator\MotorInsuranceCalculator\obj\Debug\Window1.g.cs
+C:\Documents\MotorInsuranceCalculator\MotorInsuranceCalculator\obj\Debug\Window1.baml
+C:\Users\Craigg\Google Drive\MotorInsuranceCalculator\MotorInsuranceCalculator\bin\Debug\MotorInsuranceCalculator.exe.config
+C:\Users\Craigg\Google Drive\MotorInsuranceCalculator\MotorInsuranceCalculator\obj\Debug\MotorInsuranceCalculator.exe
+C:\Users\Craigg\Google Drive\MotorInsuranceCalculator\MotorInsuranceCalculator\obj\Debug\MotorInsuranceCalculator.pdb
+C:\Users\Craigg\Google Drive\MotorInsuranceCalculator\MotorInsuranceCalculator\bin\Debug\MotorInsuranceCalculator.exe
+C:\Users\Craigg\Google Drive\MotorInsuranceCalculator\MotorInsuranceCalculator\bin\Debug\MotorInsuranceCalculator.pdb
+C:\Users\Craigg\Google Drive\MotorInsuranceCalculator\MotorInsuranceCalculator\obj\Debug\MotorInsuranceCalculator.csprojResolveAssemblyReference.cache
+C:\Users\Craigg\Google Drive\MotorInsuranceCalculator\MotorInsuranceCalculator\obj\Debug\MainWindow.g.cs
+C:\Users\Craigg\Google Drive\MotorInsuranceCalculator\MotorInsuranceCalculator\obj\Debug\Window1.g.cs
+C:\Users\Craigg\Google Drive\MotorInsuranceCalculator\MotorInsuranceCalculator\obj\Debug\App.g.cs
+C:\Users\Craigg\Google Drive\MotorInsuranceCalculator\MotorInsuranceCalculator\obj\Debug\MotorInsuranceCalculator_MarkupCompile.cache
+C:\Users\Craigg\Google Drive\MotorInsuranceCalculator\MotorInsuranceCalculator\obj\Debug\MotorInsuranceCalculator_MarkupCompile.lref
+C:\Users\Craigg\Google Drive\MotorInsuranceCalculator\MotorInsuranceCalculator\obj\Debug\MainWindow.baml
+C:\Users\Craigg\Google Drive\MotorInsuranceCalculator\MotorInsuranceCalculator\obj\Debug\Window1.baml
+C:\Users\Craigg\Google Drive\MotorInsuranceCalculator\MotorInsuranceCalculator\obj\Debug\MotorInsuranceCalculator.g.resources
+C:\Users\Craigg\Google Drive\MotorInsuranceCalculator\MotorInsuranceCalculator\obj\Debug\MotorInsuranceCalculator.Properties.Resources.resources
+C:\Users\Craigg\Google Drive\MotorInsuranceCalculator\MotorInsuranceCalculator\obj\Debug\MotorInsuranceCalculator.csproj.GenerateResource.Cache

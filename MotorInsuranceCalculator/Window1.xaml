@@ -1,0 +1,136 @@
+﻿<Window x:Class="MotorInsuranceCalculator.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MotorInsuranceCalculator"
+        mc:Ignorable="d"
+        Loaded="Window_Loaded"
+        Title="Window1" Height="551.597" Width="1415.966" WindowState="Maximized">
+    <Window.Resources>
+        <Style TargetType="{x:Type Label}">
+            <Setter Property="Margin" Value="5,0,5,0" />
+            <Setter Property="HorizontalAlignment" Value="Left" />
+        </Style>
+        <Style TargetType="{x:Type TextBox}">
+            <Setter Property="VerticalAlignment" Value="Center" />
+            <Setter Property="Margin" Value="0,2,40,2" />
+            <Setter Property="Validation.ErrorTemplate">
+                <Setter.Value>
+                    <ControlTemplate>
+                        <DockPanel LastChildFill="true">
+                            <Border Background="OrangeRed" DockPanel.Dock="right" Margin="5,0,0,0" 
+                                Width="20" Height="20" CornerRadius="5"
+                                ToolTip="{Binding ElementName=customAdorner, 
+                                          Path=AdornedElement.(Validation.Errors)[0].ErrorContent}">
+                                <TextBlock Text="!" VerticalAlignment="center" HorizontalAlignment="center" 
+                                   FontWeight="Bold" Foreground="white" />
+                            </Border>
+                            <AdornedElementPlaceholder Name="customAdorner" VerticalAlignment="Center" >
+                                <Border BorderBrush="red" BorderThickness="1" />
+                            </AdornedElementPlaceholder>
+                        </DockPanel>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+    <Grid x:Name="grid_EmployeeData" Background="AliceBlue">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25"></RowDefinition>
+            <RowDefinition Height="25"></RowDefinition>
+            <RowDefinition Height="25"></RowDefinition>
+            <RowDefinition Height="25"></RowDefinition>
+            <RowDefinition Height="25"></RowDefinition>
+            <RowDefinition Height="25"></RowDefinition>
+            <RowDefinition Height="25"></RowDefinition>
+            <RowDefinition Height="25"></RowDefinition>
+            <RowDefinition Height="25"></RowDefinition>
+            <RowDefinition Height="25"></RowDefinition>
+            <RowDefinition Height="25"></RowDefinition>
+            <RowDefinition Height="25"></RowDefinition>
+            <RowDefinition Height="25"></RowDefinition>
+            <RowDefinition Height="25"></RowDefinition>
+            <RowDefinition Height="25"></RowDefinition>
+            <RowDefinition Height="25"></RowDefinition>
+            <RowDefinition Height="25"></RowDefinition>
+            <RowDefinition Height="25"></RowDefinition>
+            <RowDefinition Height="25"></RowDefinition>
+            <RowDefinition Height="25"></RowDefinition>
+            <RowDefinition Height="25"></RowDefinition>
+            <RowDefinition Height="25"></RowDefinition>
+            <RowDefinition Height="25"></RowDefinition>
+            <RowDefinition Height="25"></RowDefinition>
+            <RowDefinition Height="25"></RowDefinition>
+            <RowDefinition Height="25"></RowDefinition>
+            <RowDefinition Height="25"></RowDefinition>
+            <RowDefinition Height="25"></RowDefinition>
+            <RowDefinition Height="25"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions >
+        <Grid.CommandBindings>
+            <CommandBinding Command="New" CanExecute="Confirm_CanExecute" Executed="Confirm_Executed" />
+        </Grid.CommandBindings>
+
+        <TextBlock  x:Name="tbkPilocyDate" FontSize="16" FontWeight="Bold"  Grid.Column="0" HorizontalAlignment="Center" TextWrapping="Wrap" Grid.Row="3" Text="Start Date of the Policy:" VerticalAlignment="Top"/>
+        <DatePicker SelectedDateChanged="dpkStartDateOfPolicy_SelectedDateChanged" HorizontalAlignment="Center" Name="dpkStartDateOfPolicy"  Grid.Column="0" VerticalAlignment="Top" Grid.Row="4" Margin="96,0" Width="162" />
+        <Label  x:Name="tbkName" Grid.Row="5" FontSize="16" FontWeight="Bold" Grid.Column="0" HorizontalAlignment="Center"  VerticalAlignment="Top" Target="{Binding ElementName=textBox_Name}" Content="Name:" Margin="148,19,148,0" Grid.RowSpan="2" />
+        <TextBox x:Name="tbxName" HorizontalAlignment="Center" Grid.Row="7" Grid.Column="0" VerticalAlignment="Top" Height="23" TextWrapping="Wrap"  Width="161" Validation.Error="Validation_Error"
+             Text="{Binding UpdateSourceTrigger=PropertyChanged, Path=Name,
+                    ValidatesOnDataErrors=true, NotifyOnValidationError=true}" Margin="97,2,96,0"  />
+
+        <Label x:Name="tbkOccupation" Grid.Row="8" Grid.Column="0" HorizontalAlignment="Center" FontSize="16" FontWeight="Bold" Content="Occupation:" Target="{Binding ElementName=cmbOccupation}" VerticalAlignment ="Top" Margin="127,19,127,0" Grid.RowSpan="2"/>
+
+        <ComboBox x:Name="cmbOccupation" Grid.Row="10" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Top" Width="161" Loaded="cmbOccupation_Loaded" Validation.Error="Validation_Error"
+             Text="{Binding UpdateSourceTrigger=PropertyChanged, Path=Occupation, 
+                    ValidatesOnDataErrors=true, NotifyOnValidationError=true}" Margin="97,0,96,0" />
+
+
+
+
+        <Label x:Name="tbkDOB" Grid.Row="11" Grid.Column="0" FontSize="16" FontWeight="Bold" HorizontalAlignment="Center" Target="{Binding ElementName=dpkDOB}" Content="Date of Birth:" Margin="152,21,152,23" Grid.RowSpan="3"/>
+        <DatePicker HorizontalAlignment="Center" SelectedDateChanged="dpkDOB_SelectedDateChanged" Name="dpkDOB" Grid.Column="0" VerticalAlignment="Top" Grid.Row="13"  Validation.Error="Validation_Error"
+             DataContext="{Binding UpdateSourceTrigger=PropertyChanged, Path=DOB, 
+                    ValidatesOnDataErrors=true, NotifyOnValidationError=true}" Margin="97,0,96,0" Width="161"/>
+        <TextBlock x:Name="tbkNoClaims" Grid.Row="3" Grid.Column="2" FontSize="16" FontWeight="Bold" HorizontalAlignment="Center" TextWrapping="Wrap" Text="Number of Claims" VerticalAlignment="Top"/>
+        <ComboBox x:Name="cbxNoClaims" SelectionChanged="cbxNoClaims_SelectionChanged" Loaded="cbxNoClaims_Loaded" Grid.Row="4" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Top" Width="162" Margin="96,0"/>
+        <TextBlock x:Name="textBlock" FontSize="16" FontWeight="Bold"  Grid.Row="6" Grid.Column="2" HorizontalAlignment="Center" TextWrapping="Wrap" Text="Date of claims" VerticalAlignment="Top"/>
+        <DatePicker Name="dpkClaim1"  Grid.Row="7" Grid.Column="2"  HorizontalAlignment="Center" Width="162" VerticalAlignment="Top"/>
+        <DatePicker Name="dpkClaim2"  Grid.Row="8" Grid.Column="2"  HorizontalAlignment="Center" VerticalAlignment="Top" Margin="96,0" Width="162"/>
+        <DatePicker Name="dpkClaim3"  Grid.Row="9" Grid.Column="2"  HorizontalAlignment="Center" VerticalAlignment="Top" Margin="96,0" Width="162"/>
+        <DatePicker Name="dpkClaim4"  Grid.Row="10" Grid.Column="2"  HorizontalAlignment="Center" Margin="96,0,96,1" Width="162"/>
+        <DatePicker Name="dpkClaim5"  Grid.Row="11" Grid.Column="2"  HorizontalAlignment="Center" VerticalAlignment="Top" Margin="96,0" Width="162"/>
+        <Button x:Name="btnAddDriver" Content="Add Driver" Command="New"  VerticalAlignment="Bottom" Width="162" Margin="73,0,295,0" FontSize="16" FontWeight="Bold" Background="Green" Foreground="White" Click="btnAddDriver_Click" Grid.Column="2" Grid.Row="16"/>
+        <Button x:Name="btnClose" Content="Exit" VerticalAlignment="Bottom" Width="162" Margin="290,0,78,0" FontSize="16" FontWeight="Bold" Background="Red" Foreground="White" Grid.Column="2" Grid.Row="16" Click="btnClose_Click"/>
+        <TextBlock x:Name="txtPolicy" Visibility="Collapsed" Grid.Row="2" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+        <ListView x:Name="lstDrivers" HorizontalAlignment="Left" Height="100" FontSize="16" FontWeight="Bold" Foreground="Coral" Grid.RowSpan="5" VerticalAlignment="Top" Grid.Column="1" Width="275"  Grid.Row="18">
+            <ListView.View>
+                <GridView>
+                    
+                    <GridViewColumn  Header="Name"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <ListView x:Name="lstPolicy" HorizontalAlignment="Left" Height="100" FontSize="16" FontWeight="Bold" Foreground="Coral" Grid.RowSpan="4" Grid.Column="1" VerticalAlignment="Top" Width="69" Margin="280,0,0,0" Grid.Row="18">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn  Header="Cost"/>
+                    
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <TextBlock x:Name="tbkTotalPolicy" FontSize="30px" Foreground="Green" HorizontalAlignment="Left" Grid.RowSpan="2"  TextWrapping="Wrap" Text="" VerticalAlignment="Top" Margin="300,0,0,0" Grid.Row="26" RenderTransformOrigin="0.003,0.394"/>
+        <TextBlock x:Name="txbTitle" HorizontalAlignment="Center" TextWrapping="Wrap" Text="Insurance Calculator" Grid.ColumnSpan="1" Grid.RowSpan="2" FontSize="25" FontWeight="Bold" Foreground="#FF9700FF" VerticalAlignment="Top" Grid.Column="1" />
+
+
+
+
+
+
+
+    </Grid>
+</Window>

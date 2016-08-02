@@ -1,0 +1,43 @@
+﻿<Window x:Class="MotorInsuranceCalculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MotorInsuranceCalculator"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    
+    <Grid Background="AliceBlue">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="45"/>
+            <RowDefinition Height="150"></RowDefinition>
+            <RowDefinition Height="40"></RowDefinition>
+
+
+        </Grid.RowDefinitions>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Car Insurance Calculator" VerticalAlignment="Top" Foreground="#FF9700FF" FontWeight="Bold" FontSize="18.667" Margin="25"/>
+        <TextBlock x:Name="textBlock1" Grid.Row="1" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Find out how much your car insurance will cost you " VerticalAlignment="Top" Background="#FFE0E0E0" Foreground="#FF9700FF" Margin="25,0,0,0" FontSize="13.333" Padding="10"/>
+        <Image Source="../MotorInsuranceCalculator\Images\car.png" Grid.Row="2" Margin="84,0,-84,0"></Image>
+
+
+        <Button x:Name="btnBack" Grid.Row="3" Margin="165,0,-141,-22" Content="" Click="btnBack_Click"  
+                           >
+            <Button.Template>
+                <ControlTemplate>
+                    <Border CornerRadius="10" Background="#FF50BB30" Margin="0,0,147,30">
+                        <TextBlock Text="Get a Quote    >" Foreground="White" 
+                                           HorizontalAlignment="Right"                                           
+                                           Margin="0,5,30,-12"
+                                           Height="40"
+                                           FontSize="20"></TextBlock>
+                    </Border>
+                </ControlTemplate>
+            </Button.Template>
+        </Button>
+        
+    </Grid>
+</Window>
