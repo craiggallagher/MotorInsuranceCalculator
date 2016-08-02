@@ -30,3 +30,19 @@ C:\Users\Craigg\Google Drive\MotorInsuranceCalculator\MotorInsuranceCalculator\o
 C:\Users\Craigg\Google Drive\MotorInsuranceCalculator\MotorInsuranceCalculator\obj\Debug\MotorInsuranceCalculator.g.resources
 C:\Users\Craigg\Google Drive\MotorInsuranceCalculator\MotorInsuranceCalculator\obj\Debug\MotorInsuranceCalculator.Properties.Resources.resources
 C:\Users\Craigg\Google Drive\MotorInsuranceCalculator\MotorInsuranceCalculator\obj\Debug\MotorInsuranceCalculator.csproj.GenerateResource.Cache
+C:\Users\Craigg\Desktop\MotorInsuranceCalculator\MotorInsuranceCalculator\bin\Debug\MotorInsuranceCalculator.exe.config
+C:\Users\Craigg\Desktop\MotorInsuranceCalculator\MotorInsuranceCalculator\obj\Debug\MotorInsuranceCalculator.exe
+C:\Users\Craigg\Desktop\MotorInsuranceCalculator\MotorInsuranceCalculator\obj\Debug\MotorInsuranceCalculator.pdb
+C:\Users\Craigg\Desktop\MotorInsuranceCalculator\MotorInsuranceCalculator\bin\Debug\MotorInsuranceCalculator.exe
+C:\Users\Craigg\Desktop\MotorInsuranceCalculator\MotorInsuranceCalculator\bin\Debug\MotorInsuranceCalculator.pdb
+C:\Users\Craigg\Desktop\MotorInsuranceCalculator\MotorInsuranceCalculator\obj\Debug\MotorInsuranceCalculator.csprojResolveAssemblyReference.cache
+C:\Users\Craigg\Desktop\MotorInsuranceCalculator\MotorInsuranceCalculator\obj\Debug\MainWindow.g.cs
+C:\Users\Craigg\Desktop\MotorInsuranceCalculator\MotorInsuranceCalculator\obj\Debug\Window1.g.cs
+C:\Users\Craigg\Desktop\MotorInsuranceCalculator\MotorInsuranceCalculator\obj\Debug\App.g.cs
+C:\Users\Craigg\Desktop\MotorInsuranceCalculator\MotorInsuranceCalculator\obj\Debug\MotorInsuranceCalculator_MarkupCompile.cache
+C:\Users\Craigg\Desktop\MotorInsuranceCalculator\MotorInsuranceCalculator\obj\Debug\MotorInsuranceCalculator_MarkupCompile.lref
+C:\Users\Craigg\Desktop\MotorInsuranceCalculator\MotorInsuranceCalculator\obj\Debug\MainWindow.baml
+C:\Users\Craigg\Desktop\MotorInsuranceCalculator\MotorInsuranceCalculator\obj\Debug\Window1.baml
+C:\Users\Craigg\Desktop\MotorInsuranceCalculator\MotorInsuranceCalculator\obj\Debug\MotorInsuranceCalculator.g.resources
+C:\Users\Craigg\Desktop\MotorInsuranceCalculator\MotorInsuranceCalculator\obj\Debug\MotorInsuranceCalculator.Properties.Resources.resources
+C:\Users\Craigg\Desktop\MotorInsuranceCalculator\MotorInsuranceCalculator\obj\Debug\MotorInsuranceCalculator.csproj.GenerateResource.Cache

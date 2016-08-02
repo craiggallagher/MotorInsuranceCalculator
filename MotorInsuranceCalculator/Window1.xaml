@@ -123,7 +123,7 @@
                 </GridView>
             </ListView.View>
         </ListView>
-        <TextBlock x:Name="tbkTotalPolicy" FontSize="30px" Foreground="Green" HorizontalAlignment="Left" Grid.RowSpan="2"  TextWrapping="Wrap" Text="" VerticalAlignment="Top" Margin="300,0,0,0" Grid.Row="26" RenderTransformOrigin="0.003,0.394"/>
+        <TextBlock x:Name="tbkTotalPolicy" FontSize="30px" Foreground="Green" HorizontalAlignment="Left" Grid.RowSpan="3"  TextWrapping="Wrap" Text="" VerticalAlignment="Top" Margin="300,0,0,0" Grid.Row="24" RenderTransformOrigin="0.003,0.394"/>
         <TextBlock x:Name="txbTitle" HorizontalAlignment="Center" TextWrapping="Wrap" Text="Insurance Calculator" Grid.ColumnSpan="1" Grid.RowSpan="2" FontSize="25" FontWeight="Bold" Foreground="#FF9700FF" VerticalAlignment="Top" Grid.Column="1" />
 
 
